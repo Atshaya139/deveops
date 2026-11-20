@@ -12,7 +12,7 @@ pipeline {
         stage('Build & Execute Script') {
             steps {
                 echo 'Running first.py...'
-                bat 'test.py'
+                bat 'python test.py'
             }
         }
 
